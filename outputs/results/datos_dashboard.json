@@ -1,0 +1,367 @@
+{
+    "titulo": "Modelo VAR: Crecimiento, Petróleo y Riesgo País en Ecuador",
+    "cobertura": "2010 - 2024 (Frecuencia Trimestral)",
+    "fuentes": "Banco Central del Ecuador (BCE) y FRED",
+    "variables": [
+        "PIB",
+        "Precio del Petróleo (WTI)",
+        "Riesgo País (EMBI)"
+    ],
+    "modelo_estable": true,
+    "historico": [
+        {
+            "fecha": "2010-06-30",
+            "pib": 15506.22,
+            "petroleo": 71.79,
+            "riesgo": 776.06
+        },
+        {
+            "fecha": "2010-09-30",
+            "pib": 15970.06,
+            "petroleo": 75.03,
+            "riesgo": 674.27
+        },
+        {
+            "fecha": "2010-12-31",
+            "pib": 15881.76,
+            "petroleo": 82.65,
+            "riesgo": 642.44
+        },
+        {
+            "fecha": "2011-03-31",
+            "pib": 15985.23,
+            "petroleo": 81.48,
+            "riesgo": 846.83
+        },
+        {
+            "fecha": "2011-06-30",
+            "pib": 16482.67,
+            "petroleo": 80.3,
+            "riesgo": 904.71
+        },
+        {
+            "fecha": "2011-09-30",
+            "pib": 16546.78,
+            "petroleo": 88.2,
+            "riesgo": 738.2
+        },
+        {
+            "fecha": "2011-12-31",
+            "pib": 16523.87,
+            "petroleo": 92.04,
+            "riesgo": 834.24
+        },
+        {
+            "fecha": "2012-03-31",
+            "pib": 16648.9,
+            "petroleo": 89.69,
+            "riesgo": 777.09
+        },
+        {
+            "fecha": "2012-06-30",
+            "pib": 16729.74,
+            "petroleo": 92.4,
+            "riesgo": 668.28
+        },
+        {
+            "fecha": "2012-09-30",
+            "pib": 16442.63,
+            "petroleo": 90.09,
+            "riesgo": 775.88
+        },
+        {
+            "fecha": "2012-12-31",
+            "pib": 16470.74,
+            "petroleo": 87.76,
+            "riesgo": 900.53
+        },
+        {
+            "fecha": "2013-03-31",
+            "pib": 16450.88,
+            "petroleo": 88.97,
+            "riesgo": 739.52
+        },
+        {
+            "fecha": "2013-06-30",
+            "pib": 16455.56,
+            "petroleo": 79.4,
+            "riesgo": 928.26
+        },
+        {
+            "fecha": "2013-09-30",
+            "pib": 16481.71,
+            "petroleo": 70.78,
+            "riesgo": 535.7
+        },
+        {
+            "fecha": "2013-12-31",
+            "pib": 16687.29,
+            "petroleo": 67.96,
+            "riesgo": 888.3
+        },
+        {
+            "fecha": "2014-03-31",
+            "pib": 16609.14,
+            "petroleo": 62.9,
+            "riesgo": 830.0
+        },
+        {
+            "fecha": "2014-06-30",
+            "pib": 16682.1,
+            "petroleo": 64.47,
+            "riesgo": 786.68
+        },
+        {
+            "fecha": "2014-09-30",
+            "pib": 16873.05,
+            "petroleo": 59.93,
+            "riesgo": 839.38
+        },
+        {
+            "fecha": "2014-12-31",
+            "pib": 16749.64,
+            "petroleo": 52.87,
+            "riesgo": 652.63
+        },
+        {
+            "fecha": "2015-03-31",
+            "pib": 16891.01,
+            "petroleo": 60.2,
+            "riesgo": 807.44
+        },
+        {
+            "fecha": "2015-06-30",
+            "pib": 17210.62,
+            "petroleo": 59.07,
+            "riesgo": 868.5
+        },
+        {
+            "fecha": "2015-09-30",
+            "pib": 16936.97,
+            "petroleo": 59.41,
+            "riesgo": 979.57
+        },
+        {
+            "fecha": "2015-12-31",
+            "pib": 17091.78,
+            "petroleo": 52.28,
+            "riesgo": 801.32
+        },
+        {
+            "fecha": "2016-03-31",
+            "pib": 17226.96,
+            "petroleo": 49.56,
+            "riesgo": 780.47
+        },
+        {
+            "fecha": "2016-06-30",
+            "pib": 17474.37,
+            "petroleo": 50.12,
+            "riesgo": 809.48
+        },
+        {
+            "fecha": "2016-09-30",
+            "pib": 17189.94,
+            "petroleo": 44.36,
+            "riesgo": 968.46
+        },
+        {
+            "fecha": "2016-12-31",
+            "pib": 17076.78,
+            "petroleo": 46.24,
+            "riesgo": 904.16
+        },
+        {
+            "fecha": "2017-03-31",
+            "pib": 17289.56,
+            "petroleo": 43.24,
+            "riesgo": 827.31
+        },
+        {
+            "fecha": "2017-06-30",
+            "pib": 17380.03,
+            "petroleo": 41.78,
+            "riesgo": 935.99
+        },
+        {
+            "fecha": "2017-09-30",
+            "pib": 17516.34,
+            "petroleo": 38.77,
+            "riesgo": 903.4
+        },
+        {
+            "fecha": "2017-12-31",
+            "pib": 17748.56,
+            "petroleo": 48.03,
+            "riesgo": 962.77
+        },
+        {
+            "fecha": "2018-03-31",
+            "pib": 17795.32,
+            "petroleo": 47.96,
+            "riesgo": 795.9
+        },
+        {
+            "fecha": "2018-06-30",
+            "pib": 17862.23,
+            "petroleo": 42.67,
+            "riesgo": 849.21
+        },
+        {
+            "fecha": "2018-09-30",
+            "pib": 18071.36,
+            "petroleo": 46.79,
+            "riesgo": 830.43
+        },
+        {
+            "fecha": "2018-12-31",
+            "pib": 18011.86,
+            "petroleo": 40.68,
+            "riesgo": 741.6
+        },
+        {
+            "fecha": "2019-03-31",
+            "pib": 18409.05,
+            "petroleo": 41.73,
+            "riesgo": 914.43
+        },
+        {
+            "fecha": "2019-06-30",
+            "pib": 18492.88,
+            "petroleo": 31.93,
+            "riesgo": 940.32
+        },
+        {
+            "fecha": "2019-09-30",
+            "pib": 18291.05,
+            "petroleo": 25.29,
+            "riesgo": 934.65
+        },
+        {
+            "fecha": "2019-12-31",
+            "pib": 18545.67,
+            "petroleo": 26.27,
+            "riesgo": 907.72
+        },
+        {
+            "fecha": "2020-03-31",
+            "pib": 18552.23,
+            "petroleo": 29.96,
+            "riesgo": 778.57
+        },
+        {
+            "fecha": "2020-06-30",
+            "pib": 18769.76,
+            "petroleo": 30.82,
+            "riesgo": 875.47
+        },
+        {
+            "fecha": "2020-09-30",
+            "pib": 19090.94,
+            "petroleo": 30.24,
+            "riesgo": 885.0
+        },
+        {
+            "fecha": "2020-12-31",
+            "pib": 19032.47,
+            "petroleo": 28.74,
+            "riesgo": 843.56
+        },
+        {
+            "fecha": "2021-03-31",
+            "pib": 19208.08,
+            "petroleo": 21.35,
+            "riesgo": 929.84
+        },
+        {
+            "fecha": "2021-06-30",
+            "pib": 19320.97,
+            "petroleo": 20.0,
+            "riesgo": 997.17
+        },
+        {
+            "fecha": "2021-09-30",
+            "pib": 19484.79,
+            "petroleo": 20.0,
+            "riesgo": 1152.29
+        },
+        {
+            "fecha": "2021-12-31",
+            "pib": 20110.52,
+            "petroleo": 20.73,
+            "riesgo": 965.27
+        },
+        {
+            "fecha": "2022-03-31",
+            "pib": 20177.05,
+            "petroleo": 22.45,
+            "riesgo": 968.41
+        },
+        {
+            "fecha": "2022-06-30",
+            "pib": 20041.53,
+            "petroleo": 20.0,
+            "riesgo": 961.66
+        },
+        {
+            "fecha": "2022-09-30",
+            "pib": 20074.47,
+            "petroleo": 20.0,
+            "riesgo": 772.37
+        },
+        {
+            "fecha": "2022-12-31",
+            "pib": 19894.56,
+            "petroleo": 20.0,
+            "riesgo": 967.37
+        },
+        {
+            "fecha": "2023-03-31",
+            "pib": 19935.88,
+            "petroleo": 20.0,
+            "riesgo": 986.2
+        },
+        {
+            "fecha": "2023-06-30",
+            "pib": 20019.13,
+            "petroleo": 20.0,
+            "riesgo": 1217.32
+        },
+        {
+            "fecha": "2023-09-30",
+            "pib": 20366.53,
+            "petroleo": 20.0,
+            "riesgo": 936.3
+        },
+        {
+            "fecha": "2023-12-31",
+            "pib": 20660.82,
+            "petroleo": 22.81,
+            "riesgo": 971.72
+        },
+        {
+            "fecha": "2024-03-31",
+            "pib": 20731.98,
+            "petroleo": 20.0,
+            "riesgo": 950.68
+        },
+        {
+            "fecha": "2024-06-30",
+            "pib": 21161.6,
+            "petroleo": 20.0,
+            "riesgo": 841.92
+        },
+        {
+            "fecha": "2024-09-30",
+            "pib": 21112.14,
+            "petroleo": 20.0,
+            "riesgo": 1068.1
+        },
+        {
+            "fecha": "2024-12-31",
+            "pib": 21831.82,
+            "petroleo": 23.6,
+            "riesgo": 1014.38
+        }
+    ]
+}

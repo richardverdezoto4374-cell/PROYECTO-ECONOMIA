@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Econométrico - Modelo VAR Ecuador</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans p-6">
+    <div class="max-w-5xl mx-auto space-y-6">
+        
+        <!-- Encabezado -->
+        <header class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-lg">
+            <h1 class="text-3xl font-bold text-blue-400">Modelo VAR: Crecimiento, Petróleo y Riesgo País</h1>
+            <p class="text-gray-400 mt-2">Análisis de Series de Tiempo Multivariadas para la Economía Ecuatoriana (2010 - 2024)</p>
+            <div class="mt-4 flex gap-4 text-sm text-gray-300">
+                <span class="bg-blue-900/50 px-3 py-1 rounded border border-blue-500">Fuente: BCE / FRED</span>
+                <span class="bg-green-900/50 px-3 py-1 rounded border border-green-500">Modelo Estable: True</span>
+            </div>
+        </header>
+
+        <!-- Pregunta y Metodología -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h2 class="text-xl font-semibold text-blue-300 mb-2">Pregunta de Investigación</h2>
+                <p class="text-gray-300">¿Cómo impactan los shocks en el precio del petróleo WTI y las fluctuaciones del riesgo país (EMBI) en el crecimiento del PIB de Ecuador?</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+                <h2 class="text-xl font-semibold text-blue-300 mb-2">Metodología Econométrica</h2>
+                <p class="text-gray-300">Vector Autorregresivo (VAR) estimado con primeras diferencias logarítmicas para asegurar estacionariedad y evaluar la transmisión de perturbaciones mediante Impulso-Respuesta.</p>
+            </div>
+        </div>
+
+        <!-- Interpretación Econométrica -->
+        <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+            <h2 class="text-xl font-semibold text-blue-300 mb-4">Resultados Académicos</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-300">
+                <li><strong class="text-white">Estacionariedad:</strong> Todas las series alcanzaron estacionariedad tras aplicar la primera diferencia logarítmica (Dickey-Fuller p < 0.05).</li>
+                <li><strong class="text-white">Shock Petrolero:</strong> Un incremento en la cotización del petróleo genera un estímulo positivo contemporáneo sobre el PIB real.</li>
+                <li><strong class="text-white">Riesgo País:</strong> El incremento en el índice EMBI produce un efecto contractivo persistente sobre la actividad económica.</li>
+            </ul>
+        </div>
+
+        <!-- Pie de Página -->
+        <footer class="text-center text-gray-500 text-sm py-4">
+            Proyecto Final de Econometría Aplicada • Ecuador
+        </footer>
+    </div>
+</body>
+</html>
